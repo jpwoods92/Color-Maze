@@ -1,0 +1,31 @@
+#block-container {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;
+}
+
+#block-container div {
+    border: 1px solid black;
+    height: 78px;
+    min-width: 78px;
+}
+
+
+
+.red:hover {
+    background: red;
+}
+
+.orange:hover {
+    background: orange;
+}
+
+.blue:hover {
+    background: blue;
+}
+
+.green:hover {
+    background: green;
+}
