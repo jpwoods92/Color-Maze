@@ -14,18 +14,18 @@
 
 
 
-.red:hover {
+.red.active {
     background: red;
 }
 
-.orange:hover {
+.orange.active {
     background: orange;
 }
 
-.blue:hover {
+.blue.active {
     background: blue;
 }
 
-.green:hover {
+.green.active {
     background: green;
 }
