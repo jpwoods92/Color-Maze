@@ -1,6 +1,6 @@
 #start-button {
-    left: 18%;
-    top: 35%;
+    top: 296px;
+    left: 288px;
     position: absolute;
 }
 
@@ -13,7 +13,7 @@
 }
 
 #block-container div {
-    border: 1px solid black;
+    border: 1px solid white;
     height: 28px;
     min-width: 28px;
 }
@@ -50,59 +50,50 @@
               transform: rotateY(180deg);
     }
   }
+
+.blue {
+    background: blue;
+}
   
-.red {
-    background: white;
+.red.visited {
+    background: red;
 }
 
-.orange {
-    background: white;
+.orange.visited {
+    background: orange;
 }
 
-.dark-orange {
-    background: white;
+.dark-orange.visited {
+    background: rgb(160, 88, 0);
 }
 
-.green {
-    background: white;
+.green.visited {
+    background: green;
 }
 
 .red.active {
-
     -webkit-animation: flip-vertical-right .25s;
-
     animation: flip-vertical-right .25s;
     background: red;
 }
 
 .orange.active {
-
     -webkit-animation: flip-vertical-right .25s;
-
     animation: flip-vertical-right .25s;
     background: orange;
 }
 
 .dark-orange.active {
-
     -webkit-animation: flip-vertical-right .25s;
-
     animation: flip-vertical-right .25s;
     background: rgb(160, 88, 0);
 }
 
-.blue {
-
-    -webkit-animation: flip-vertical-right .25s;
-
-    animation: flip-vertical-right .25s;
-    background: blue;
-}
-
 .green.active {
-
     -webkit-animation: flip-vertical-right .25s;
-
     animation: flip-vertical-right .25s;
     background: green;
 }
+
+
+
